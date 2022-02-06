@@ -1,4 +1,4 @@
-# This is a support python to accompany the Chapter 2 progress
+# This a python file to accompany the Chapter 2 progress
 # Specifically starting at Flow Control Statements
 
 # if statements
