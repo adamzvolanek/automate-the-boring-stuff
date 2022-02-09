@@ -1,10 +1,10 @@
-def hello():
-    print("Howdy")
-    print("Howdy!!!!")
-    print("Hello there.")
+# def hello():
+   # print("Howdy")
+   # print("Howdy!!!!")
+   # print("Hello there.")
 
 
-hello()
+# hello()
 
 
 def hello(name):
@@ -19,18 +19,20 @@ hello("Bob")
 
 print("cats", "dogs", "mice", sep=".")
 
+
 # def spam():
 # bacon()
 # print(eggs)
 
 
 def bacon():
-# ham = 101
-# eggs = 0
+    # ham = 101
+    # eggs = 0
     pass
 
+
 eggs = 42
-spam()
+
 print(eggs)
 
 
