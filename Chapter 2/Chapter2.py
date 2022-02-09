@@ -19,7 +19,7 @@ if name == "Alice":
 elif age < 12:
     print("You are not Alice, kiddo.")
 elif age > 2000:
-    print('Unlike you, Alice is not an undead, immortal vampire.')
+    print("Unlike you, Alice is not an undead, immortal vampire.")
     # The purpose of this is to note how an age of 3000 will still print the line above and break
 elif age > 100:
     print("You are not Alice, grannie.")
@@ -29,7 +29,7 @@ print("\nIntroduction to the while loop")
 spam = 0
 if spam < 5:
     print("Hello, world using an if statement")
-    spam = spam +1
+    spam = spam + 1
 
 spam = 0
 while spam < 5:
@@ -66,7 +66,7 @@ print("Access granted")
 
 # Truthy and Falsey Values
 print("\nTruthy and Falsey Values")
-name = ''
+name = ""
 while not name:
     name = input("Enter your name ")
 

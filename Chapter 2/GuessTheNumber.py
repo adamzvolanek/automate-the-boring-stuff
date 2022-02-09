@@ -24,4 +24,3 @@ while userGuess != randomNumber:
         break
 
     numGuesses = numGuesses + 1
-

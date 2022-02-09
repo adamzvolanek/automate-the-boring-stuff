@@ -33,48 +33,48 @@ while True:
         break
 
     elif playerChoice == 'b':
-        print('\nYou chose boulder!')
-        print('Boulder VERSUS...', end=" ")
+        print("\nYou chose boulder!")
+        print("Boulder VERSUS...", end=" ")
     elif playerChoice == 'p':
         print('\nYou chose parchment!')
-        print('Parchment VERSUS...', end=" ")
+        print("Parchment VERSUS...", end=" ")
     elif playerChoice == 's':
         print('\nYou chose shears!')
-        print('Shears VERSUS...', end=" ")
+        print("Shears VERSUS...", end=" ")
 
     if playerChoice == computerChoice:
-        print('the computers choice:', variablePlays[computerChoice])
-        print('\nIts a Tie!')
+        print("the computers choice:", variablePlays[computerChoice])
+        print("\nIts a Tie!")
         ties = ties + 1
 
     # Conditions of winning
 
-    elif playerChoice == 'p' and computerChoice == 'b':
+    elif playerChoice == "p" and computerChoice == "b":
         print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Win!')
+        print("\nYou Win!")
         wins = wins + 1
-    elif playerChoice == 's' and computerChoice == 'p':
+    elif playerChoice == "s" and computerChoice == "p":
         print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Win!')
+        print("\nYou Win!")
         wins = wins + 1
-    elif playerChoice == 'b' and computerChoice == 's':
-        print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Win!')
+    elif playerChoice == "b" and computerChoice == "s":
+        print("the computers choice:", variablePlays[computerChoice])
+        print("\nYou Win!")
         wins = wins + 1
 
     # Transitions to losing conditions
 
-    elif playerChoice == 'p' and computerChoice == 's':
-        print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Lose!')
+    elif playerChoice == "p" and computerChoice == "s":
+        print("the computers choice:", variablePlays[computerChoice])
+        print("\nYou Lose!")
         losses = losses + 1
-    elif playerChoice == 's' and computerChoice == 'b':
-        print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Lose!')
+    elif playerChoice == "s" and computerChoice == "b":
+        print("the computers choice:", variablePlays[computerChoice])
+        print("\nYou Lose!")
         losses = losses + 1
-    elif playerChoice == 'b' and computerChoice == 'p':
-        print('the computers choice:', variablePlays[computerChoice])
-        print('\nYou Lose!')
+    elif playerChoice == "b" and computerChoice == "p":
+        print("the computers choice:", variablePlays[computerChoice])
+        print("\nYou Lose!")
         losses = losses + 1
 
 print("Your", wins, "Wins, ", losses, " Losses,", ties, ", Ties")

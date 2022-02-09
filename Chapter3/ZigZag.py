@@ -9,12 +9,13 @@ def zigzag():
     print("********")
     return None
 
+
 indent = 0
 indentIncreasing = True
 
 try:
     while True:
-        print(" " * indent, end='')
+        print(" " * indent, end="")
         print("********")
 
         if indentIncreasing:
@@ -34,11 +35,11 @@ except KeyboardInterrupt:
 try:
     while True:
         for i in range(19):
-            print(" " * indent, end='')
+            print(" " * indent, end="")
             print("xxxxxxxxx")
             indent = i + 1
         for i in range(19, 0, -1):
-            print(" " * indent, end='')
+            print(" " * indent, end="")
             print("xxxxxxxxx")
             indent = i - 1
 
