@@ -14,7 +14,7 @@ def hello(name):
 hello("Alice")
 hello("Bob")
 
-print("Hello", end="")
+print("Hello", end=" ")
 print("World")
 
 print("cats", "dogs", "mice", sep=".")

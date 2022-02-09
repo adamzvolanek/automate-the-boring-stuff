@@ -23,11 +23,13 @@ while True:
     computerChoice = random.choice(BPS)
     # Could have used numerical values...
 
-    # print(wins, ' Wins, ', losses, ' Losses,', ties, ', Ties')
+    # print(wins, " Wins, ", losses, " Losses,", ties, ", Ties")
     # improvement
     print("%s Wins, %s Losses, %s Ties" % (wins, losses, ties))
 
-    playerChoice = input("Enter your move (b)oulder, (p)archment, (s)hears, or (q)uit: ", )
+    playerChoice = input(
+        "Enter your move (b)oulder, (p)archment, (s)hears, or (q)uit: ",
+    )
 
     if playerChoice == "q":
         break
@@ -50,11 +52,11 @@ while True:
     # Conditions of winning
 
     elif playerChoice == "p" and computerChoice == "b":
-        print('the computers choice:', variablePlays[computerChoice])
+        print("the computers choice:", variablePlays[computerChoice])
         print("\nYou Win!")
         wins = wins + 1
     elif playerChoice == "s" and computerChoice == "p":
-        print('the computers choice:', variablePlays[computerChoice])
+        print("the computers choice:", variablePlays[computerChoice])
         print("\nYou Win!")
         wins = wins + 1
     elif playerChoice == "b" and computerChoice == "s":
