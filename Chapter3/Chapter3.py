@@ -19,16 +19,15 @@ hello("Bob")
 
 print("cats", "dogs", "mice", sep=".")
 
-
 # def spam():
-    # bacon()
-    # print(eggs)
+# bacon()
+# print(eggs)
 
 
 def bacon():
-    # ham = 101
-    # eggs = 0
-
+# ham = 101
+# eggs = 0
+    pass
 
 eggs = 42
 spam()
