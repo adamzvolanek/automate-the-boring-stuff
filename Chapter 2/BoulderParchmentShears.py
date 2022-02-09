@@ -3,7 +3,7 @@
 
 import random
 
-print('Boulder, Parchment, Scissors')
+print("Boulder, Parchment, Scissors")
 
 variablePlays = {
     "b": "Boulder",
@@ -19,27 +19,27 @@ ties = 0
 while True:
 
     # Stands for rock paper scissors, created list for random.choice to run from
-    BPS = ['b', 'p', 's']
+    BPS = ["b", "p", "s"]
     computerChoice = random.choice(BPS)
     # Could have used numerical values...
 
     # print(wins, ' Wins, ', losses, ' Losses,', ties, ', Ties')
     # improvement
-    print('%s Wins, %s Losses, %s Ties' % (wins, losses, ties))
+    print("%s Wins, %s Losses, %s Ties" % (wins, losses, ties))
 
-    playerChoice = input('Enter your move (b)oulder, (p)archment, (s)hears, or (q)uit: ', )
+    playerChoice = input("Enter your move (b)oulder, (p)archment, (s)hears, or (q)uit: ", )
 
-    if playerChoice == 'q':
+    if playerChoice == "q":
         break
 
-    elif playerChoice == 'b':
+    elif playerChoice == "b":
         print("\nYou chose boulder!")
         print("Boulder VERSUS...", end=" ")
-    elif playerChoice == 'p':
-        print('\nYou chose parchment!')
+    elif playerChoice == "p":
+        print("\nYou chose parchment!")
         print("Parchment VERSUS...", end=" ")
-    elif playerChoice == 's':
-        print('\nYou chose shears!')
+    elif playerChoice == "s":
+        print("\nYou chose shears!")
         print("Shears VERSUS...", end=" ")
 
     if playerChoice == computerChoice:

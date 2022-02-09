@@ -20,14 +20,14 @@ print("World")
 print("cats", "dogs", "mice", sep=".")
 
 
-def spam():
-    bacon()
-    print(eggs)
+# def spam():
+    # bacon()
+    # print(eggs)
 
 
 def bacon():
-    ham = 101
-    eggs = 0
+    # ham = 101
+    # eggs = 0
 
 
 eggs = 42
