@@ -34,13 +34,13 @@ while True:
 
     elif playerChoice == 'b':
         print('\nYou chose boulder!')
-        print('Boulder VERSUS...', end =" ")
+        print('Boulder VERSUS...', end=" ")
     elif playerChoice == 'p':
         print('\nYou chose parchment!')
-        print('Parchment VERSUS...', end =" ")
+        print('Parchment VERSUS...', end=" ")
     elif playerChoice == 's':
         print('\nYou chose shears!')
-        print('Shears VERSUS...', end =" ")
+        print('Shears VERSUS...', end=" ")
 
     if playerChoice == computerChoice:
         print('the computers choice:', variablePlays[computerChoice])
@@ -77,4 +77,4 @@ while True:
         print('\nYou Lose!')
         losses = losses + 1
 
-print('Your', wins, ' Wins, ', losses, ' Losses,', ties, ', Ties')
+print("Your", wins, "Wins, ", losses, " Losses,", ties, ", Ties")

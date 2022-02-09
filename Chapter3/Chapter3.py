@@ -1,19 +1,19 @@
 def hello():
-    print('Howdy')
-    print('Howdy!!!!')
-    print('Hello there.')
+    print("Howdy")
+    print("Howdy!!!!")
+    print("Hello there.")
 
 hello()
 
 def hello(name):
-    print('Hello, ' +name)
-hello('Alice')
-hello('Bob')
+    print("Hello, " +name)
+hello("Alice")
+hello("Bob")
 
-print('Hello', end='')
-print('World')
+print("Hello", end='')
+print("World")
 
-print('cats', 'dogs', 'mice', sep='.')
+print("cats", "dogs", "mice", sep=".")
 
 
 def spam():
@@ -31,7 +31,7 @@ def spam(divideBy):
     try:
         return 42 / divideBy
     except ZeroDivisionError:
-        print('Error: Divide by zero error, invalid argument')
+        print("Error: Divide by zero error, invalid argument")
 print(spam(2))
 print(spam(12))
 print(spam(0))
